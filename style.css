@@ -1,0 +1,53 @@
+@font-face {
+    font-family: 'Museo';
+    src: url('museo100.otf') format('opentype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Museo', sans-serif;
+    font-weight: 90;
+}
+
+p {
+    font-size: 19px;
+    color: white;
+}
+
+h1 {
+    color: white;
+    font-size: 40px;
+}
+
+h2 {
+    color: white;
+    font-size: 30px;
+}
+
+h3 {
+    color: white;
+    font-size: 25px;
+}
+
+body {
+    background-color: #282828;
+    color: white;
+}
+
+a {
+    color: rgb(167, 161, 161);
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+pre {
+    text-align: center;
+    white-space: pre-wrap;
+    max-width: 90%;
+    margin: 10px auto;
+}
